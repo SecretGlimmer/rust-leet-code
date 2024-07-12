@@ -1,1 +1,1 @@
-# rust-leet-code
+# Leet Code Challenge in Rust
