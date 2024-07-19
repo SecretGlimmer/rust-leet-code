@@ -3,7 +3,7 @@ use crate::solutions::prob2751::Solution;
 
 
 #[test]
-fn test_reserve_parentheses() {
+fn test_survived_robots_healths() {
     assert_eq!(
         Solution::survived_robots_healths(vec![5,4,3,2,1],vec![2,17,9,15,10],"RRRRR".to_string()),
         vec![2,17,9,15,10]

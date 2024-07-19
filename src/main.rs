@@ -13,4 +13,7 @@ fn main() {
 
     // let results = solutions::prob2751::Solution::survived_robots_healths(vec![3, 5, 2, 6], vec![10, 10, 15, 12], "RLRL".to_string());
     // println!("{:?}", results);
+
+    let results = solutions::prob1380::Solution::lucky_numbers(vec![vec![3,7,8],vec![9,11,13],vec![15,16,17]]);
+    println!("{:?}", results);
 }
