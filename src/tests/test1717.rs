@@ -3,7 +3,7 @@ use crate::solutions::prob1717::Solution;
 
 
 #[test]
-fn test_reserve_parentheses() {
+fn test_maximum_gain() {
     assert_eq!(
         Solution::maximum_gain("cdbcbbaaabab".to_string(),4,5),
         19
